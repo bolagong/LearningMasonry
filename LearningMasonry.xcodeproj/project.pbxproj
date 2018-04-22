@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CB7358208C35C800A2D7CF /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB7357208C35C800A2D7CF /* OneViewController.m */; };
+		04CB735C208C42C900A2D7CF /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB735B208C42C900A2D7CF /* TwoViewController.m */; };
 		04E5E1B0208B1E5000968DD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5E1AF208B1E5000968DD0 /* AppDelegate.m */; };
 		04E5E1B3208B1E5000968DD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5E1B2208B1E5000968DD0 /* ViewController.m */; };
 		04E5E1B6208B1E5000968DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E5E1B4208B1E5000968DD0 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		04E5E1BE208B1E5100968DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5E1BD208B1E5100968DD0 /* main.m */; };
 		04E5E1C8208B1E5100968DD0 /* LearningMasonryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5E1C7208B1E5100968DD0 /* LearningMasonryTests.m */; };
 		04E5E1D3208B1E5100968DD0 /* LearningMasonryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5E1D2208B1E5100968DD0 /* LearningMasonryUITests.m */; };
+		0FBB6E8AA93696F7C678F3BE /* Pods_LearningMasonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6864EAEDCDA24830A95EA7 /* Pods_LearningMasonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CB7356208C35C800A2D7CF /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		04CB7357208C35C800A2D7CF /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		04CB7359208C362400A2D7CF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04CB735A208C42C900A2D7CF /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		04CB735B208C42C900A2D7CF /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		04E5E1AB208B1E5000968DD0 /* LearningMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E5E1AE208B1E5000968DD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04E5E1AF208B1E5000968DD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,9 @@
 		04E5E1CE208B1E5100968DD0 /* LearningMasonryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningMasonryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E5E1D2208B1E5100968DD0 /* LearningMasonryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningMasonryUITests.m; sourceTree = "<group>"; };
 		04E5E1D4208B1E5200968DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C54D600AA9DDB165BAAD7AA /* Pods-LearningMasonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningMasonry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningMasonry/Pods-LearningMasonry.debug.xcconfig"; sourceTree = "<group>"; };
+		9E6864EAEDCDA24830A95EA7 /* Pods_LearningMasonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningMasonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FE1C44169C393CA2C929DF /* Pods-LearningMasonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningMasonry.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningMasonry/Pods-LearningMasonry.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FBB6E8AA93696F7C678F3BE /* Pods_LearningMasonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,8 @@
 				04E5E1C6208B1E5100968DD0 /* LearningMasonryTests */,
 				04E5E1D1208B1E5100968DD0 /* LearningMasonryUITests */,
 				04E5E1AC208B1E5000968DD0 /* Products */,
+				FFB28E9188188A695E7C63FC /* Pods */,
+				6F8AC03FFDB55ECAA3155EAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +119,14 @@
 				04E5E1AF208B1E5000968DD0 /* AppDelegate.m */,
 				04E5E1B1208B1E5000968DD0 /* ViewController.h */,
 				04E5E1B2208B1E5000968DD0 /* ViewController.m */,
+				04CB7356208C35C800A2D7CF /* OneViewController.h */,
+				04CB7357208C35C800A2D7CF /* OneViewController.m */,
+				04CB735A208C42C900A2D7CF /* TwoViewController.h */,
+				04CB735B208C42C900A2D7CF /* TwoViewController.m */,
 				04E5E1B4208B1E5000968DD0 /* Main.storyboard */,
 				04E5E1B7208B1E5100968DD0 /* Assets.xcassets */,
 				04E5E1B9208B1E5100968DD0 /* LaunchScreen.storyboard */,
+				04CB7359208C362400A2D7CF /* PrefixHeader.pch */,
 				04E5E1BC208B1E5100968DD0 /* Info.plist */,
 				04E5E1BD208B1E5100968DD0 /* main.m */,
 			);
@@ -132,6 +151,23 @@
 			path = LearningMasonryUITests;
 			sourceTree = "<group>";
 		};
+		6F8AC03FFDB55ECAA3155EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E6864EAEDCDA24830A95EA7 /* Pods_LearningMasonry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFB28E9188188A695E7C63FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C54D600AA9DDB165BAAD7AA /* Pods-LearningMasonry.debug.xcconfig */,
+				E7FE1C44169C393CA2C929DF /* Pods-LearningMasonry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E5E1D7208B1E5200968DD0 /* Build configuration list for PBXNativeTarget "LearningMasonry" */;
 			buildPhases = (
+				2FEBF814A100B538323888BF /* [CP] Check Pods Manifest.lock */,
 				04E5E1A7208B1E5000968DD0 /* Sources */,
 				04E5E1A8208B1E5000968DD0 /* Frameworks */,
 				04E5E1A9208B1E5000968DD0 /* Resources */,
+				01E0EAD1240D59EC45914B1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +295,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01E0EAD1240D59EC45914B1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LearningMasonry/Pods-LearningMasonry-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningMasonry/Pods-LearningMasonry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FEBF814A100B538323888BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearningMasonry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04E5E1A7208B1E5000968DD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +342,8 @@
 				04E5E1B3208B1E5000968DD0 /* ViewController.m in Sources */,
 				04E5E1BE208B1E5100968DD0 /* main.m in Sources */,
 				04E5E1B0208B1E5000968DD0 /* AppDelegate.m in Sources */,
+				04CB735C208C42C900A2D7CF /* TwoViewController.m in Sources */,
+				04CB7358208C35C800A2D7CF /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +510,13 @@
 		};
 		04E5E1D8208B1E5200968DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C54D600AA9DDB165BAAD7AA /* Pods-LearningMasonry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ET7PSX9CXJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LearningMasonry/PrefixHeader.pch";
 				INFOPLIST_FILE = LearningMasonry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +530,13 @@
 		};
 		04E5E1D9208B1E5200968DD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FE1C44169C393CA2C929DF /* Pods-LearningMasonry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ET7PSX9CXJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LearningMasonry/PrefixHeader.pch";
 				INFOPLIST_FILE = LearningMasonry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
